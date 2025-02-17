@@ -30,8 +30,8 @@ class NumberInputField extends StatelessWidget {
         if (number == null) {
           return 'Будь ласка, введіть коректне число';
         }
-        if (number < 0 || number > 100) {
-          return 'Значення має бути від 0 до 100';
+        if (number < 0 || number > 1000) {
+          return 'Значення має бути від 0 до 1000';
         }
         return null;
       },
